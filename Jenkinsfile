@@ -17,13 +17,6 @@ pipeline {
                 
             }
         }
-       stage('Notify') { 
-            steps {
-                echo 'Notifying'
-                sh "./mail.sh"
-                
-            }
-        } 
     }
     post {
     failure {
