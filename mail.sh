@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mail -s 'Notifying' ramannavarveeresh462@gmail.com
+mail -s "Notifying" ramannavarveeresh462@gmail.com
