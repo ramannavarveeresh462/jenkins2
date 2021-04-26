@@ -20,7 +20,7 @@ pipeline {
        stage('Notify') { 
             steps {
                 echo 'Notifying'
-                sh "mail.sh"
+                sh "./mail.sh"
                 
             }
         } 
